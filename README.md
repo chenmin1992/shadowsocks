@@ -16,8 +16,7 @@ CentOS:
 
     bash init.sh
 	vi userapiconfig.py
-	vi user_config.json
-	vi /etc/supervisord.d/shadowsocks.ini
+	vi user-config.json
 
 ### Usage
 
