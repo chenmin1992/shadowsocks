@@ -7,7 +7,7 @@ A fast tunnel proxy that helps you bypass firewalls.
 
 CentOS:
 
-    yum install python-setuptools git
+    yum install python-setuptools git supervisor
 	easy_install pip
 	git clone https://github.com/chenmin1992/shadowsocks.git
     pip install -r requirements.txt
@@ -17,6 +17,7 @@ CentOS:
     bash init.sh
 	vi userapiconfig.py
 	vi user_config.json
+	vi /etc/supervisord.d/shadowsocks.ini
 
 ### Usage
 
