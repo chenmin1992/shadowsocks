@@ -7,7 +7,8 @@ A fast tunnel proxy that helps you bypass firewalls.
 
 CentOS:
 
-    yum install python-setuptools git supervisor
+    yum install epel-release -y
+    yum install python-setuptools git supervisor libsodium -y
 	easy_install pip
 	git clone https://github.com/chenmin1992/shadowsocks.git
     pip install -r requirements.txt
