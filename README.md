@@ -11,6 +11,7 @@ CentOS:
     yum install python-setuptools git supervisor libsodium -y
 	easy_install pip
 	git clone https://github.com/chenmin1992/shadowsocks.git
+	cd shadowsocks
     pip install -r requirements.txt
 
 ### Initial
