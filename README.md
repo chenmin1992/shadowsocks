@@ -9,9 +9,10 @@ CentOS:
 
     yum install epel-release -y
     yum install python-setuptools git supervisor libsodium -y
-	easy_install pip
-	git clone https://github.com/chenmin1992/shadowsocks.git
-	cd shadowsocks
+    easy_install pip
+    pip install --upgrade setuptools
+    git clone https://github.com/chenmin1992/shadowsocks.git
+    cd shadowsocks
     pip install -r requirements.txt
 
 ### Initial
